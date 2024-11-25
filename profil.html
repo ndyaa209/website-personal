@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahma's Gallery</title>
+    <style>
+        /* Header */
+.header {
+    background-image: url('https://i.pinimg.com/originals/46/6d/99/466d99e79593f5964bb65ca6fc7efd5c.jpg'); /* Ganti dengan URL gambar */
+    background-size: cover; 
+    background-position: center; 
+    color: rgb(7, 7, 7);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.header p {
+    font-size: 1rem;
+    color: #ffe6d1;
+}
+body {
+  background: linear-gradient(to bottom, #361a2a, #d36497);
+  font-family: Arial, sans-serif;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 2rem;
+    text-align: center;
+}
+
+.gallery .heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.gallery .heading span {
+    color: #ff5733;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.gallery-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-item p {
+    padding: 0.5rem;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer */
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer .social a {
+    color: white;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.footer .social a:hover {
+    color: #ff5733;
+}
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <div class="rahma-section">
+            <h1>Rahma's Gallery</h1>
+        </div>
+    </div>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <h2 class="heading">Kenangan <span>Indah</span></h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="/pti 1/img rahma/WhatsApp Image 2024-11-25 at 19.29.17_2ec5ed3c.jpg" alt="Rahma 1">
+                <h2>NOLEH KE BOTI</h2>
+            </div>
+            <div class="gallery-item">
+                <img src="/pti 1/img rahma/WhatsApp Image 2024-11-24 at 23.26.29_fe5722bd.jpg" alt="Rahma 2">
+                <h2>GRADUATION</h2>
+            </div>
+            <div class="gallery-item">
+                <img src="/pti 1/img rahma/WhatsApp Image 2024-11-25 at 20.18.02_791a3d3f.jpg" alt="Rahma 3">
+                <h2>KLAYAR</h2>
+            </div>
+            <div class="gallery-item">
+                <img src="/pti 1/img rahma/WhatsApp Image 2024-11-25 at 20.23.06_c94af50c.jpg" alt="Rahma 4">
+                <h2>PHOTOSTUDIO</h2>
+            </div>
+            <div class="gallery-item">
+                <img src="/pti 1/img rahma/WhatsApp Image 2024-11-25 at 20.30.36_ac740d28.jpg" alt="Rahma 4">
+                <h2>KEDUNG KAYANG</h2>
+            </div>
+            <div class="gallery-item">
+                <img src="/pti 1/img rahma/WhatsApp Image 2024-11-25 at 20.27.30_e7b0083e.jpg" alt="Rahma 4">
+                <h2>MAULID NABI</h2>
+            </div>
+            <div class="gallery-item">
+                <img src="/pti 1/img rahma/WhatsApp Image 2024-11-25 at 20.28.47_dbb35e33.jpg" alt="Rahma 4">
+                <h2>WONOSOBO</h2>
+            </div>
+            <div class="gallery-item">
+                <img src="/pti 1/img rahma/WhatsApp Image 2024-11-25 at 20.35.14_4e3df0b2.jpg" alt="Rahma 4">
+                <h2>YALIL YALILI</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-tiktok'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+        <p class="copyright">
+            @2024 Rahma's Gallery | Made with ❤️ by Nadya Cantiq
+        </p>
+    </footer>
+</body>
+</html>
